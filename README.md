@@ -21,10 +21,15 @@ A ideia é ter uma tela que mostre para o usuário logado as opções de tipo de
 #Tela Empresa
 
 A ideia é ter uma tela que mostre um formulário para cadastrar a doação conforme esquema:
-Empresa;
-Local;
-Alimento;
-Data de validade;
+
+Empresa
+
+Local
+
+Alimento
+
+Data de validade
+
 Perecível ou não perecível. 
 
 ---
