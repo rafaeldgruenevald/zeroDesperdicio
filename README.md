@@ -22,4 +22,5 @@ Local;
 Alimento;
 Data de validade;
 Perecível ou não perecível. 
+
 ---
