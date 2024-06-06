@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pags/telaEmpresa/empresaStyle.css">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Empresa</title>
 </head>
 
@@ -28,10 +32,14 @@
                     <input type="text" placeholder="Alimento">
                     <input type="text" placeholder="Data de validade">
                     <p>Precível?</p>
-                    <input type="checkbox" placeholder="sim" name="perecivelSIM">
-                    <label for="perecivelSIM">SIM</label>
-                    <input type="checkbox" placeholder="nao" name="perecivelNAO">
-                    <label for="perecivelSIM">NAO</label>
+                    <label class="form-control">
+                        <input type="checkbox" name="checkbox" />
+                        SIM
+                        <input type="checkbox" name="checkbox" />
+                        NÃO
+                      </label>
+                      
+                    <input type="submit" value="Enviar" id="btnEnviar">
                 </form>
             </div>
             

@@ -63,41 +63,13 @@ body {
 
 }
 
-.card-content label {
-
-    color: #fff;
-
-    font-size: 12px;
-
-    opacity: 0.8;
-
-}
-
-.card-content-area {
+.card-content {
 
     display: flex;
 
     flex-direction: column;
 
     padding:10px 0;
-
-}
-
-.card-content-area input {
-
-    margin-top: 10px;
-
-    padding:0 5px;
-
-    background-color: transparent;
-
-    border:none;
-
-    border-bottom: 1px solid #e1e1e1;
-
-    outline: none;
-
-    color: #fff;
 
 }
 
@@ -137,4 +109,53 @@ body {
 
     text-decoration: none;
 
+}
+h2 {
+    font-family: poppins;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color:#5C8374;
+    color: white;
+    font-weight: bold;
+    
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 10px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: poppins;   
+}
+
+.form-control {
+    font-family: poppins;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 0.1;
+    padding-left: 23%;
+  }
+
+p{
+    font-family: poppins;
+    line-height: 0.1;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
 }
