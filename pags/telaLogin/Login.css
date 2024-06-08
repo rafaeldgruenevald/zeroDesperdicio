@@ -24,7 +24,7 @@ text-align: center
 
     height: 100vh;
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: poppins;
 
 }
 
@@ -142,8 +142,14 @@ text-align: center
 
     text-decoration: none;
 
+    font-family: poppins;
+
 }
 
 .cadastrar{
     padding-top: 2%;
+}
+
+input{
+    font-family: poppins;
 }

@@ -22,7 +22,7 @@
             </div>
 
             <div class="card-content">
-                <form>
+                <form id="formulario">
                     <input type="text" placeholder="Nome da empresa">
                     <input type="text" placeholder="Endereço">
                     <input type="number" placeholder="Nº">
@@ -31,15 +31,14 @@
                     <input type="number" placeholder="CEP">
                     <input type="text" placeholder="Alimento">
                     <input type="text" placeholder="Data de validade">
-                    <p>Precível?</p>
+                    <p>Alimentro é perecível?</p>
                     <label class="form-control">
-                        <input type="checkbox" name="checkbox" />
+                        <input type="radio" name="checkbox" class="radio" />
                         SIM
-                        <input type="checkbox" name="checkbox" />
+                        <input type="radio" name="checkbox" class="radio"/>
                         NÃO
                       </label>
-                      
-                    <input type="submit" value="Enviar" id="btnEnviar">
+                    <input class="btnEnviar"type="submit" value="Enviar">
                 </form>
             </div>
             
