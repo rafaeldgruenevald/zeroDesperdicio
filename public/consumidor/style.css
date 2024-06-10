@@ -1,0 +1,32 @@
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: #040D12;
+}
+.card {
+    background-color: #183D3D;
+    padding: 40px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 22rem;
+}
+
+button {
+    display: block;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 4rem;
+    width: 10rem;
+    background-color:#5C8374;
+    color: white;
+    border-radius: 1rem;
+    border: 0;
+}
