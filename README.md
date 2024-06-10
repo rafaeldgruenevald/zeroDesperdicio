@@ -1,4 +1,6 @@
 # zeroDesperdicio
+
+#Tecnologias utilizadas: HTML, CSS, JS, Git
 ---
 #Tela Login
 
